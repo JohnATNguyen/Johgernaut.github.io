@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+header {
+	overflow: auto;
+	background-color: #ffffff;
+	margin-left: 110px;
+}
+
+#name {
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-right: 37.5%;
+}
+
+#links {
+	display: inline-flex; /* or float:right but with margin/padding editing */
+	align-items: center;
+	/* position: absolute; */
+	/* height: 1000%; */
+}
+
+#container {
+	background-image: url("../images/ep_naturalwhite.png");
+	overflow: auto;
+	color: #777777;
+	flex: 1;
+	border-top: 2px solid #cccccc;
+}
+
+#section1 {
+	float: left;
+	width: 650px;
+	margin: 40px 40px 40px 110px;
+	background-color: #ffffff;
+	border: 1.5px solid #dddddd;
+	padding: 0px 25px 0px 25px;
+}
+
+h2 {
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 20px;
+}
+
+#profile_image {
+	float: left;
+	height: 25%;
+	width: 25%;
+	margin-right: 25px;
+}
+
+p {
+	line-height: 150%;
+}
+
+#section2 {
+	display: inline-block; /* or float:right but with margin/padding editing */
+	width: 270px;
+	background-color: #ffffff;
+	margin: 40px 0px;
+	border: 1.5px solid #dddddd;
+	text-align: center;
+	padding: 0px 25px 25px 25px;
+	position: absolute;
+}
+
+h3 {
+	border-bottom: 1.5px solid #dddddd;
+	padding-bottom: 15px;
+}
+
+.social {
+	width: 20%;
+}
+
+#stackoverflow {
+	height: 17.65%;
+	width: 17.65%;
+	margin: 2px;
+}
+
+footer {
+	clear: left;
+	background-color: #666666;
+	text-align: center;
+	color: #4aaaa5;
+	border-top: 5px solid #4aaaa5;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
