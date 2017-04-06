@@ -10,16 +10,26 @@
 		<div id="name">
 			<h1>&nbsp&nbsp&nbspJohn A.T. Nguyen&nbsp&nbsp&nbsp</h1>
 		</div>
-		<a href="index.html">About</a>
-		&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-		<a href="portfolio.html">Portfolio</a>
-		&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-		<a href="contact.html">Contact</a>
+		<div id="links">
+			<a class="linked" href="index.html">About</a>
+			&nbsp&nbsp|&nbsp&nbsp
+			<a class="linked" href="portfolio.html">Portfolio</a>
+			&nbsp&nbsp|&nbsp&nbsp
+			<a class="linked" href="contact.html">Contact</a>
+		</div>
 	</header>
 	<div id="container">
 		<section>
 			<h2>Contact</h2>
-			Coming soon!
+			<form action="" method="post">
+				Name<br>
+				<input id="actualform" type="text" name="name" placeholder="John Smith" required size="85"><br>
+				Email<br>
+				<input id="actualform" type="email" name="email" placeholder="example@gmail.com" required size="85"><br>
+				Message<br>
+				<textarea id="actualform" name="message" placeholder="Please leave a message. I'll do my best to get back to you as soon as possible." required rows="10" cols="87"></textarea><br>
+				<input id="submit" type="submit" name="submit">
+			</form>
 		</section>
 		<aside>
 			<h3>Connect with Me</h3>

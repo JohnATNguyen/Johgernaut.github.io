@@ -11,6 +11,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0px;
+	font-family: Georgia;
 }
 
 header {
@@ -24,7 +25,16 @@ header {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	margin-left: 10%;
-	margin-right: 35%;
+	margin-right: 31.5%;
+}
+
+#links {
+	font-family: Arial;
+	font-size: 80%;
+}
+
+.linked {
+	text-decoration: none;
 }
 
 #container {
@@ -40,12 +50,13 @@ section {
 	margin: 40px 40px 40px 10%;
 	background-color: #ffffff;
 	border: 1.5px solid #dddddd;
-	padding: 0px 2%;
+	padding: 0px 2% 1%;
 }
 
 h2 {
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 3%;
+	color: #4aaaa5;
 }
 
 #profile_image {
@@ -56,12 +67,15 @@ h2 {
 }
 
 p {
-	line-height: 150%;
+	line-height: 200%;
+	font-family: Arial;
+	font-size: 85%;
 }
 
 #flexed {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 5% 0% -2.5%;
 }
 
 .image {
@@ -77,11 +91,30 @@ p {
 
 .overlay {
 	position: absolute;
-	top: 67%;
+	top: 68%;
 	background-color: #4aaaa5;
 	color: white;
 	width: 250px; /* have to use px instead of %, because it would otherwise be too wide thus not allowing flex-wrapping */
 	text-align: center;
+	font-family: Georgia;
+}
+
+form {
+	line-height: 175%;
+	padding-bottom: 3%;
+	font-family: Arial;
+}
+
+#actualform {
+	font-family: Arial;
+}
+
+#submit {
+	background-color: #4aaaa5;
+	color: white;
+	border: none;
+	font-size: 80%;
+	padding: 1% 3%;
 }
 
 aside {
@@ -98,6 +131,7 @@ aside {
 h3 {
 	border-bottom: 1.5px solid #dddddd;
 	padding-bottom: 5%;
+	color: #4aaaa5;
 }
 
 .social {
@@ -112,10 +146,12 @@ h3 {
 
 footer {
 	background-color: #666666;
-	color: #4aaaa5;
+	color: #cccccc;
 	border-top: 5px solid #4aaaa5;
 	height: 75px; /* can't do percentage here for some reason */
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: Arial;
+	font-size: 50%;
 }
