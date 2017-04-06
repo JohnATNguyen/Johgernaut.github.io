@@ -14,72 +14,65 @@ body {
 }
 
 header {
-	overflow: auto;
 	background-color: #ffffff;
-	margin-left: 110px;
+	display: flex;
+	align-items: center;
 }
 
 #name {
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	margin-right: 37.5%;
-}
-
-#links {
-	display: inline-flex; /* or float:right but with margin/padding editing */
-	align-items: center;
-	/* position: absolute; */
-	/* height: 1000%; */
+	margin-left: 10%;
+	margin-right: 35%;
 }
 
 #container {
 	background-image: url("../images/ep_naturalwhite.png");
-	overflow: auto;
 	color: #777777;
 	flex: 1;
 	border-top: 2px solid #cccccc;
 }
 
-#section1 {
+section {
 	float: left;
 	width: 650px;
-	margin: 40px 40px 40px 110px;
+	margin: 40px 40px 40px 10%;
 	background-color: #ffffff;
 	border: 1.5px solid #dddddd;
-	padding: 0px 25px 0px 25px;
+	padding: 0px 2%;
 }
 
 h2 {
 	border-bottom: 2px solid #cccccc;
-	padding-bottom: 20px;
+	padding-bottom: 3%;
 }
 
 #profile_image {
 	float: left;
 	height: 25%;
 	width: 25%;
-	margin-right: 25px;
+	margin-right: 5%;
 }
 
 p {
 	line-height: 150%;
 }
 
-#section2 {
-	display: inline-block; /* or float:right but with margin/padding editing */
+aside {
+	display: inline-block;
 	width: 270px;
 	background-color: #ffffff;
 	margin: 40px 0px;
 	border: 1.5px solid #dddddd;
 	text-align: center;
-	padding: 0px 25px 25px 25px;
+	padding: 0px 2% 2% 2%;
 	position: absolute;
 }
 
 h3 {
 	border-bottom: 1.5px solid #dddddd;
-	padding-bottom: 15px;
+	padding-bottom: 5%;
 }
 
 .social {
@@ -87,18 +80,16 @@ h3 {
 }
 
 #stackoverflow {
-	height: 17.65%;
-	width: 17.65%;
-	margin: 2px;
+	height: 17.7%;
+	width: 17.7%;
+	margin: 1%;
 }
 
 footer {
-	clear: left;
 	background-color: #666666;
-	text-align: center;
 	color: #4aaaa5;
 	border-top: 5px solid #4aaaa5;
-	height: 75px;
+	height: 75px; /* can't do percentage here for some reason */
 	display: flex;
 	align-items: center;
 	justify-content: center;
