@@ -59,6 +59,31 @@ p {
 	line-height: 150%;
 }
 
+#flexed {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.image {
+	position: relative;
+	margin: auto;
+	margin-bottom: 7.5%;
+}
+
+.actual_picture {
+	height: 250px; /* have to use px instead of %, because it would otherwise be too wide thus not allowing flex-wrapping */
+	width: 250px; /* have to use px instead of %, because it would otherwise be too wide thus not allowing flex-wrapping */
+}
+
+.overlay {
+	position: absolute;
+	top: 67%;
+	background-color: #4aaaa5;
+	color: white;
+	width: 250px; /* have to use px instead of %, because it would otherwise be too wide thus not allowing flex-wrapping */
+	text-align: center;
+}
+
 aside {
 	display: inline-block;
 	width: 270px;
