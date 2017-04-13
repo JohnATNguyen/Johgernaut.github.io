@@ -171,7 +171,7 @@ footer {
 
 @media screen and (max-width: 992px) {
 	#logo {
-		margin-right: 22.5%;
+		margin-right: 27%;
 	}
 
 	#profile_image {
@@ -181,9 +181,13 @@ footer {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) { /* Had to do 767 instead of 768 here, because at 768 there was a glitch where aside would move upwards for 
+										pixel 768 when in that upper right hand corner. There's still a glitch at 767 here, presumably because 
+										bootstrap and this media query are in conflict (can't occur at the same time or something) causing aside 
+										to move down for pixel 767 when in that bottom section, but this is a more acceptable glitch thus I'll stick
+										with 767 over 768 here. */
 	#logo {
-		margin-right: 10%;
+		margin-right: 13%;
 	}
 
 	#profile_image {
@@ -207,7 +211,7 @@ footer {
 	}
 
 	#logo {
-		margin-right: 10%;
+		margin-right: 0px;
 		width: 100%;
 		text-align: center;
 	}
